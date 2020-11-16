@@ -23,7 +23,7 @@ def planos():
   print('[1] -- PLANO FORTX (MENSAL) R$130,00')
   print('[2] -- PLANO BODYPERFECT (TRIMENSAL) R$90,00 ')
   print('[3] -- PLANO PREMIUM (ANUAL) R$65,00\033[1;32m')
-  c = lerInt('Digite o plano escolhido: ')
+  c = int(input(('Digite o plano escolhido: ')))
   return c
 
 
