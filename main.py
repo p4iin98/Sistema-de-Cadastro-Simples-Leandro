@@ -1,5 +1,5 @@
-from lib.functions import *
-from lib.arquivos import *
+from app.lib.functions import *
+from app.lib.arquivos import *
 from time import sleep
 from datetime import date
 
