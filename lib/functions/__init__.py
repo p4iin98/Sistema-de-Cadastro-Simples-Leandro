@@ -38,9 +38,6 @@ def menuprincipal(lista):
     print(f'\033[1;94m{contador} ----> {item}\033[1;32m')
     linha()
     contador += 1
-  c = int(input(('Digite a sua opção: ')))
-  print()
-  return c
 
 
 
