@@ -15,7 +15,7 @@ listmenu = ['Ver alunos cadastrados', 'Cadastrar', 'Procurar Aluno', 'Fechar']
 
 while True:
     linha()
-    resposta = menuprincipal(listmenu)
+    resposta = int(input(menuprincipal(listmenu)))
     if resposta == 1:
         print()
         linha(48)
